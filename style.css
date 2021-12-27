@@ -1,0 +1,62 @@
+body {
+	background-color: rgb(53, 53, 66);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.8rem;
+}
+
+h1 {
+	color: violet;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+#searchInput {
+	font-size: 1.8rem;
+	padding: 0.2rem;
+}
+
+form {
+	text-align: center;
+	margin: 4rem 0 5.5rem 0;
+}
+
+table {
+	width: 80%;
+}
+
+.summary {
+	width: 65%;
+}
+
+tbody td p {
+	font-size: 1rem;
+}
+
+thead {
+	font-size: 2.5rem;
+}
+
+.cover {
+	width: 17.5%;
+}
+
+.image-box {
+	padding-top: 0.4rem;
+	width: 200px;
+	height: 275px;
+}
+
+table,
+thead,
+tr,
+td {
+	color: rgb(167, 212, 158);
+	list-style: none;
+	border: dotted 2px violet;
+	border-collapse: collapse;
+	padding: 0.4rem;
+	text-align: center;
+}
